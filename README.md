@@ -38,6 +38,7 @@ You must have Python 3.10 or later installed. Earlier versions of python may not
 
 5. Run the following command in your terminal to start the chat UI:
    ```
+   chainlit run deepseek_coder_v2_ollama_chat.py
    chainlit run langchain_deepseek_coder_v2_ollama_inst.py
    ```
 
