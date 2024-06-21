@@ -54,7 +54,7 @@ async def start():
                 id="model",
                 label="Ollama - Model",
                 #values=["gpt-3.5-turbo", "gpt-3.5-turbo-16k", "gpt-4", "gpt-4-32k"],
-                values = ["ollama/deepseek-coder-v2", "ollama/llama3"]
+                values = ["ollama/deepseek-coder-v2", "ollama/llama3"],
                 initial_index=0,
             ),
         ]
