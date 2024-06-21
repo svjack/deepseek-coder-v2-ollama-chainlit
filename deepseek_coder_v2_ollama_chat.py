@@ -19,7 +19,7 @@ settings = {
 
 
 @cl.on_chat_start
-def start_chat():
+async def start_chat():
     elements = [
     cl.Image(name="image1", display="inline", path="deepseek-coder-v2.png", size = "large")
     ]
