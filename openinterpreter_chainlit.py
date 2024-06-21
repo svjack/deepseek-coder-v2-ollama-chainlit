@@ -1,4 +1,4 @@
-import interpreter
+from interpreter import interpreter
 import chainlit as cl
 from chainlit.input_widget import Select
 
