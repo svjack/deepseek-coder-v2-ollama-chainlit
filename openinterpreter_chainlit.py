@@ -1,4 +1,7 @@
 from interpreter import interpreter
+interpreter.llm.model = "ollama/deepseek-coder-v2"
+interpreter.auto_run = True
+
 import chainlit as cl
 from chainlit.input_widget import Select
 
