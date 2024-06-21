@@ -2,3 +2,4 @@ langchain
 chainlit
 openai
 langchain_community
+open-interpreter
