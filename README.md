@@ -2,7 +2,6 @@
 Simple Chat UI using Gemma model via Ollama, LangChain and Chainlit
 
 ### Open Source in Action 🚀
-- [Gemma](https://ai.google.dev/gemma/docs/model_card) as Large Language model via [Ollama](https://ollama.com/)
 - [LangChain](https://www.langchain.com/) as a Framework for LLM
 - [LangSmith](https://smith.langchain.com/) for developing, collaborating, testing, deploying, and monitoring LLM applications.
 - [Chainlit](https://docs.chainlit.io/langchain) for deploying.
@@ -15,8 +14,8 @@ You must have Python 3.10 or later installed. Earlier versions of python may not
 
 1. Fork this repository and create a codespace in GitHub as I showed you in the youtube video OR Clone it locally.
    ```
-   git clone https://github.com/sudarshan-koirala/langchain-gemma-ollama-chainlit.git
-   cd langchain-gemma-ollama-chainlit
+   git clone https://github.com/svjack/langchain-deepseek-coder-v2-ollama-chainlit.git
+   cd langchain-deepseek-coder-v2-ollama-chainlit
    ```
 
 2. Create a virtualenv and activate it
