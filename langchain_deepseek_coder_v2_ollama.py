@@ -12,10 +12,10 @@ async def on_chat_start():
     
     # Sending an image with the local file path
     elements = [
-    cl.Image(name="image1", display="inline", path="gemma.jpeg")
+    cl.Image(name="image1", display="inline", path="deepseek-coder-v2.png")
     ]
     await cl.Message(content="Hello there, I am Gemma. How can I help you ?", elements=elements).send()
-    model = Ollama(model="gemma:2b")
+    model = Ollama(model="deepseek-coder-v2")
     prompt = ChatPromptTemplate.from_messages(
         [
             (
