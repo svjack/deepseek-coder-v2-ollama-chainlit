@@ -14,13 +14,13 @@ async def on_chat_start():
     elements = [
     cl.Image(name="image1", display="inline", path="deepseek-coder-v2.png")
     ]
-    await cl.Message(content="Hello there, I am Gemma. How can I help you ?", elements=elements).send()
+    await cl.Message(content="Hello there, I am deepseek-coder-v2. How can I help you ?", elements=elements).send()
     model = Ollama(model="deepseek-coder-v2")
     prompt = ChatPromptTemplate.from_messages(
         [
             (
                 "system",
-                "You're a very knowledgeable historian who provides accurate and eloquent answers to historical questions.",
+                "You are an expert in guiding coding issues. Please carefully answer users’ questions about code writing.",
             ),
             ("human", "{question}"),
         ]
